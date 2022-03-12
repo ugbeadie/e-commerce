@@ -234,7 +234,7 @@ nav {
   .nav-items {
     display: none;
     flex-direction: column;
-    width: 60vw;
+    width: 70vw;
     height: 100vh;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
