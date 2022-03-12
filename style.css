@@ -249,17 +249,19 @@ nav {
   }
   .nav-items li {
     padding: 10px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
+  }
+  /* .nav-items li a {
     color: hsl(220, 13%, 13%);
-  }
-  .hidden {
-    /* overflow: hidden; */
-  }
+  } */
   .nav-items.active {
     display: flex;
     top: 0;
     padding-top: 60px;
+  }
+  .hidden {
+    overflow: hidden;
   }
   .wrapper {
     margin: 0;
