@@ -31,7 +31,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   height: 30px;
-  width: 30px;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -220,7 +220,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     height: 30px;
-    width: 30px;
+    width: 40px;
     z-index: 100;
   }
   .cross {
@@ -271,6 +271,13 @@ nav {
   }
   .right {
     padding: 30px;
+  }
+  .t-p {
+    display: flex;
+    align-items: center;
+  }
+  .right h4 {
+    margin: 25px 0 0 28px;
   }
 }
 
