@@ -3,6 +3,8 @@ const navUl = document.getElementsByClassName('nav-items')[0];
 const itemCount = document.getElementsByClassName('count')[0];
 const minus = document.getElementsByClassName('minus')[0];
 const plus = document.getElementsByClassName('plus')[0];
+const addToCart = document.getElementsByClassName('amount-right')[0];
+const cartNumber = document.getElementsByClassName('cart-number')[0];
 
 let count = 0;
 
@@ -22,4 +24,9 @@ minus.addEventListener('click', () => {
     }else {
         count = 0;
     }
+})
+
+addToCart.addEventListener('click', () => {
+    cartNumber.classList.add('show');
+    cartNumber.textContent = count;
 })

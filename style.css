@@ -60,6 +60,10 @@ nav {
   color: hsl(219, 9%, 45%);
 }
 
+.nav-right {
+  position: relative;
+}
+
 .nav-right,
 .nav-left {
   display: flex;
@@ -73,6 +77,23 @@ nav {
 }
 .cart {
   margin-right: 30px;
+}
+
+.cart-number {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  color: white;
+  padding: 1px 10px;
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cart-number.show {
+  display: flex;
 }
 
 .line {
