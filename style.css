@@ -350,11 +350,11 @@ nav {
     justify-content: space-between;
     height: 30px;
     width: 40px;
-    z-index: 100;
+    z-index: 1000;
   }
   .cross {
     --toggle-btn: url(images/icon-close.svg);
-    z-index: 100;
+    z-index: 1000;
   }
   ol,
   ul {
@@ -369,7 +369,7 @@ nav {
     position: absolute;
     top: 60px;
     left: -50px;
-    z-index: 10;
+    z-index: 200;
   }
   .nav-items ul {
     flex-direction: column;
