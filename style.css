@@ -429,16 +429,10 @@ nav {
     margin-right: 10px;
   }
   .cart-number {
-    /* display: none; */
     position: absolute;
     top: 0;
     left: 8px;
-    color: white;
     padding: 1px 8px;
-    background-color: hsl(26, 100%, 55%);
-    border-radius: 15px;
-    font-size: 12px;
-    font-weight: 700;
   }
   .avatar {
     width: 40px;
