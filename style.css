@@ -452,15 +452,15 @@ nav {
   .cart-card {
     position: absolute;
     top: 55px;
-    right: -5%;
+    right: -7%;
     width: 300px;
   }
 }
 
 @media screen and (max-width: 300px) {
   .cart-card {
-    right: 40%;
-    width: 200px;
+    /* right: 40%; */
+    width: 250px;
   }
   /* .t-p {
     display: flex;
