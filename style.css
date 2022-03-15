@@ -107,8 +107,7 @@ nav {
 }
 
 .cart-card {
-  /* display: none; */
-  /* flex-direction: column; */
+  display: none;
   position: absolute;
   z-index: 100;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 13px 18px;
