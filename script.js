@@ -62,5 +62,5 @@ function letsDelete() {
     emptyCart.style.display = "flex";
     checkoutBtn.style.display = "none";
     cartNumber.style.display = "none";
-            cardProduct.style.display = "none";
+    cardProduct.style.display = "none";
    }
