@@ -37,7 +37,7 @@ cart.addEventListener('click', () => {
 
 addToCart.addEventListener('click', () => {
    if(count > 0) {
-    //    alert('added to cart');
+       alert('added to cart');
     cardProduct.innerHTML = `
     <img src="images/image-product-1-thumbnail.jpg" alt="cart item thumbnail" class="cart-thumbnail">
     <div class="added-prod">
