@@ -389,6 +389,9 @@ nav {
     font-size: 18px;
     font-weight: 700;
   }
+  .nav-items li a:hover {
+    border-bottom: none;
+  }
   .nav-items.active {
     display: flex;
     top: 0;
