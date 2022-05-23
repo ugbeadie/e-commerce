@@ -322,6 +322,15 @@ nav {
     brightness(180%) contrast(100%);
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 @media screen and (max-width: 1200px) {
   nav {
     padding: 15px 60px;
