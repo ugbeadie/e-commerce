@@ -303,6 +303,10 @@ nav {
   font-weight: 700;
 }
 
+.plus,.minus {
+  padding: 5px;
+}
+
 .amount-right {
   width: 55%;
   display: flex;
